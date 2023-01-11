@@ -1,16 +1,22 @@
-body {
+body,
+html {
   background-color: #1b1a1a;
-  color: #ffffff;
+  color: white;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
-  line-height: 1.42857143;
-  margin: 2rem;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.main {
+  padding: 1rem;
+  margin: 0rem;
 }
 
 h1 {
   vertical-align: middle;
   font-size: 2.5rem;
-  background-color: #111;
+  background-color: black;
   margin: 0.3rem;
   padding: 0.3rem;
 }
@@ -21,7 +27,7 @@ h1 img {
   padding-right: 1rem;
 }
 
-.centerText {
+.center-text {
   text-align: center;
 }
 
@@ -103,37 +109,8 @@ input {
   padding: 0.8rem 0 0.8rem 0;
 }
 
-.gameCount {
+.game-count {
   padding-right: 2rem;
-}
-
-@font-face {
-  font-family: 'topaz';
-  src: url('./fonts/AmigaTopazTurkish.woff') format('woff');
-}
-
-.guru {
-  font-family: 'topaz' !important;
-  color: #ff0000;
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  border: 10px solid #ff0000;
-  background-color: #000;
-  padding: 1rem;
-  margin: 3rem;
-  font-size: 24px;
-  font-family: 'Courier New', Courier, monospace;
-  animation: blink 2s steps(1, end) infinite;
-}
-
-@keyframes blink {
-  0% {
-    border-color: #000;
-  }
-  50% {
-    border-color: #ff0000;
-  }
 }
 
 input[type='checkbox'] {
